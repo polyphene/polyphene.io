@@ -1,15 +1,10 @@
 $break-small: 719px;
 
 body {
-  font-family: Inter;
+  font-family: "Source Sans Pro", sans-serif;
   color: #797283;
 
-  p {
-    font-family: Inter;
-  }
-
   h1, h2, h3, h4, h5, h6 {
-    font-family: PT Serif;
     line-height: 43px;
     color: #1E1C21;
   }
@@ -225,7 +220,7 @@ body {
     .call-to-action__content {
       h2 {
         font-size: 36px;
-        font-family: Inter;
+        font-family: "Source Sans Pro", sans-serif;
         font-weight: 600;
         margin: 0 0 32px;
         color: #ffffff;
@@ -287,7 +282,7 @@ body {
     color: #1E1C21;
 
     h1, h2, h3, h4, h5, h6 {
-      font-family: Inter;
+      font-family: "Source Sans Pro", sans-serif;
     }
 
     .title {
@@ -336,7 +331,7 @@ body {
           font-size: 14px;
           font-weight: bold;
           text-transform: uppercase;
-          font-family: Inter;
+          font-family: "Source Sans Pro", sans-serif;
           line-height: 0;
         }
 
