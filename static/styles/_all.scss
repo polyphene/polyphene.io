@@ -10,22 +10,22 @@ body {
   }
 
   a {
-    color: #8953B7;
+    color: $evidence-purple;
 
     &:hover, &:active {
-      color: #8953b7;
+      color: #b780ff;
     }
   }
 
   header {
     background-color: #FDFAFF;
     display: block;
-    padding: 39px 0;
+    padding: 24px 0;
 
     .logo {
       img {
-        width: 151px;
-        height: 44px;
+        width: 175px;
+        height: 75px;
       }
     }
 
@@ -34,18 +34,20 @@ body {
       justify-content: space-between;
 
       .get-started {
+        padding-top: 15px;
+        padding-bottom: 15px;
         a {
-          width: 160px;
+          width: 140px;
           height: 47px;
           font-style: normal;
           font-weight: bold;
           font-size: 16px;
           line-height: 47px;
           display: block;
-          background: #8953B7;
+          background: $evidence-purple;
           border-radius: 4px;
           text-align: center;
-          color: #FFFFFF;
+          color: white;
         }
       }
     }
@@ -164,7 +166,7 @@ body {
   }
 
   .call-to-action {
-    background-color: #8953B7;
+    background-color: $evidence-purple;
     color: #ffffff;
     padding: 65px 0;
     border-radius: 40px 40px 0px 0px;
@@ -205,7 +207,7 @@ body {
         justify-content: center;
         font-weight: bold;
         flex-direction: column;
-        color: #8953B7;
+        color: $evidence-purple;
 
         @media screen and (max-width: $break-small) {
           margin: 0 auto;
@@ -346,14 +348,14 @@ body {
               color: #797283;
 
               &:hover, &:active {
-                color: #8953b7;
+                color: #b780ff;
               }
             }
           }
         }
 
         .links__special {
-          background-color: #8953b7;
+          background-color: #b780ff;
           color: #ffffff;
           border-radius: 4px;
           padding: 2px 5px;
