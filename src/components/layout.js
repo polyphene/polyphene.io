@@ -27,7 +27,7 @@ const Layout = ({children}) => (
                     <div className={"col-5"}>
                         <div className={"widget__item"}>
                             <div className={"logo"}>
-                                <Link to="/" title={"evidence"}>
+                                <Link to="/" title={"Evidence"}>
                                     <img alt={"Logo"} src={logo}/>
                                 </Link>
                             </div>
