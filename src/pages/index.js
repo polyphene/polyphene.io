@@ -2,20 +2,20 @@ import React from "react"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import featureImage from "../../static/images/hero.png";
-import thumbnailEvent from "../../static/images/feature-event.png"
-import thumbnailBoard from "../../static/images/feature-board.png"
-import thumbnailNews from "../../static/images/feature-news.png"
-import thumbnailTeams from "../../static/images/feature-team.png"
-import thumbnailStaff from "../../static/images/feature-user.png"
+import featureImage from "../../static/images/undraw_through_the_park_lxnl.svg"
+import thumbnailSelfSovereignIdentity from "../../static/images/undraw_analyze_17kw.svg"
+import thumbnailSurveillance from "../../static/images/undraw_surveillance_re_8tkl.svg"
+import thumbnailGlobalCommunity from "../../static/images/undraw_the_world_is_mine_nb0e.svg"
+import informationImage from "../../static/images/Information-document.svg"
+import { Link } from "gatsby"
 
 const IndexPage = () => (
     <Layout>
-        <SEO title="Make your Staff and Workspace Happy"/>
+        <SEO title="Restoring faith in the post-trust era."/>
 
         <div className={"page-header home"}>
-            <h1>Make your Staff and Workspace Happy</h1>
-            <p>HiStaff gives your complex the opportunity to increase the percentage of happiness<br/>and enjoyment of your staff and as a result, bring productivity to your workspace.</p>
+            <h1>Restoring Faith in the Post-Trust Era</h1>
+            <p>Evidence is building an open network and set of tools<br/>to democratize the decentralization and certification of data.</p>
             <img alt={"Dashboard"} src={featureImage}/>
         </div>
 
@@ -25,14 +25,14 @@ const IndexPage = () => (
                     <div className={"row"}>
                         <div className={"col-6 first"}>
                             <div className={"thumbnail"}>
-                                <img alt={"Event"} src={thumbnailEvent}/>
+                                <img alt={"Self-Sovereign Identity"} src={thumbnailSelfSovereignIdentity}/>
                             </div>
                         </div>
 
                         <div className={"col-6"}>
                             <div className={"feature__content"}>
-                                <h2>Create and Join Events</h2>
-                                <p>Save your time and energy by letting HiStaff to manage your events (handle the colleague’s birthday, gathering, etc.)</p>
+                                <h2>One of the Most Advanced Network of Self-Sovereign Identities</h2>
+                                <p>Drawing on years of experience in the field of distributed and decentralized architectures, Evidence is building one of the most advanced network of Self-Sovereign Identities : simple to integrate, interoperable and high-performance.</p>
                             </div>
                         </div>
                     </div>
@@ -42,14 +42,14 @@ const IndexPage = () => (
                     <div className={"row"}>
                         <div className={"col-6"}>
                             <div className={"feature__content"}>
-                                <h2>Public Board</h2>
-                                <p>Let the staff write down on the board freely,<br/>Joking with each other and writing cool content can make the workplace more diverse and attractive for employees. </p>
+                                <h2>An Unrivalled Level of Security</h2>
+                                <p>Our network enables not to share any personal data.<br/>It uses cutting-edge cryptography (Zero-Knowledge Proofs) to prove characteristics on it without even disclosing it.</p>
                             </div>
                         </div>
 
                         <div className={"col-6 first"}>
                             <div className={"thumbnail"}>
-                                <img alt={"Board"} src={thumbnailBoard}/>
+                                <img alt={"Surveillance"} src={thumbnailSurveillance}/>
                             </div>
                         </div>
                     </div>
@@ -59,49 +59,58 @@ const IndexPage = () => (
                     <div className={"row"}>
                         <div className={"col-6 first"}>
                             <div className={"thumbnail"}>
-                                <img alt={"News"} src={thumbnailNews}/>
+                                <img alt={"Global Community"} src={thumbnailGlobalCommunity}/>
                             </div>
                         </div>
 
                         <div className={"col-6"}>
                             <div className={"feature__content"}>
-                                <h2>Internal News</h2>
-                                <p>Get rid of sending news by e-mail and its problems; post the news in an internal and attractive format via HiStaff instead.</p>
+                                <h2>An Open Community</h2>
+                                <p>Evidence coordinates the efforts of an open, global community to produce the most comprehensive specifications and useful tools.</p>
                             </div>
                         </div>
                     </div>
                 </div>
+            </div>
+        </div>
 
-                <div className={"feature__item"}>
-                    <div className={"row"}>
-                        <div className={"col-6"}>
-                            <div className={"feature__content"}>
-                                <h2>Teams</h2>
-                                <p>HiStaff let you add staff in specific teams and manage them easily.</p>
-                            </div>
+
+
+        <div className={"container"}>
+            <div className={"targets"}>
+                <div className={"title"}>
+                    <h2>Latest News</h2>
+                </div>
+
+                <div className={"row"}>
+                    <div className={"col-6"}>
+                        <div className={"item"}>
+                            <img alt={"Information"} src={informationImage}/>
+                            <h3>Handling of Employes’s Information and documents</h3>
+                            <p>Having a human management software for businesses and startups is not always cost-effective. HiStaff allows companies to archive their employees' documents and information free of charge.</p>
                         </div>
-
-                        <div className={"col-6 first"}>
-                            <div className={"thumbnail"}>
-                                <img alt={"Team"} src={thumbnailTeams}/>
-                            </div>
+                    </div>
+                    <div className={"col-6"}>
+                        <div className={"item"}>
+                            <img alt={"Information"} src={informationImage}/>
+                            <h3>Handling of Employes’s Information and documents</h3>
+                            <p>Having a human management software for businesses and startups is not always cost-effective. HiStaff allows companies to archive their employees' documents and information free of charge.</p>
                         </div>
                     </div>
                 </div>
-
-                <div className={"feature__item"}>
-                    <div className={"row"}>
-                        <div className={"col-6 first"}>
-                            <div className={"thumbnail"}>
-                                <img alt={"Users"} src={thumbnailStaff}/>
-                            </div>
+                <div className={"row"}>
+                    <div className={"col-6"}>
+                        <div className={"item"}>
+                            <img alt={"Information"} src={informationImage}/>
+                            <h3>Handling of Employes’s Information and documents</h3>
+                            <p>Having a human management software for businesses and startups is not always cost-effective. HiStaff allows companies to archive their employees' documents and information free of charge.</p>
                         </div>
-
-                        <div className={"col-6"}>
-                            <div className={"feature__content"}>
-                                <h2>Staff management</h2>
-                                <p>Discard traditional ways to archive staff documents and information, and try new ways to store and archive them in HiStaff easily.</p>
-                            </div>
+                    </div>
+                    <div className={"col-6"}>
+                        <div className={"item"}>
+                            <img alt={"Information"} src={informationImage}/>
+                            <h3>Handling of Employes’s Information and documents</h3>
+                            <p>More on our blog TODO</p>
                         </div>
                     </div>
                 </div>
@@ -111,12 +120,12 @@ const IndexPage = () => (
         <div className={"call-to-action"}>
             <div className={"container"}>
                 <div className={"call-to-action__content"}>
-                    <h2>Sign up for free</h2>
-                    <p>Sign up and start increasing the productivity of your business with HiStaff.</p>
+                    <h2>Get started</h2>
+                    <p>Contact us to access early releases and engage in the community.</p>
                 </div>
 
                 <div className={"button"}>
-                    <a href="https://app.histaff.io" target={"_blank"}>Get Started</a>
+                    <Link to="/contact" title={"Contact Us"}>Contact Us</Link>
                 </div>
             </div>
         </div>
