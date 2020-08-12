@@ -33,7 +33,8 @@ const Layout = ({children}) => (
                             </div>
 
                             <div className={"about"}>
-                                <p>Aute sunt ullamco aliqua mollit fugiat voluptate in. Duis tempor id Lorem consectetur proident nisi mollit. Lorem ipsum ex proident fugiat ullamco incididunt.</p>
+                                <p>Restoring faith in the post-trust era.</p>
+                                <p>Evidence is building an open network and set of tools to democratize the decentralization and certification of data.</p>
                             </div>
                         </div>
                     </div>
@@ -58,7 +59,6 @@ const Layout = ({children}) => (
                                     <li><Link to="/contact" title={"Contact Us"}>Contact</Link></li>
                                     <li><Link to="/press-kit" title={"Press Kit"}>Press Kit</Link></li>
                                     <li><Link to="/privacy" title={"Privacy Policy"}>Privacy</Link></li>
-                                    <li><Link to="/terms" title={"Terms Of Use"}>Terms Of Use</Link></li>
                                 </ul>
                             </div>
                         </div>
