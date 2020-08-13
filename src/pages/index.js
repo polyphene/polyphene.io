@@ -6,10 +6,10 @@ import featureImage from "../../static/images/undraw_through_the_park_lxnl.svg"
 import thumbnailSelfSovereignIdentity from "../../static/images/undraw_analyze_17kw.svg"
 import thumbnailSurveillance from "../../static/images/undraw_surveillance_re_8tkl.svg"
 import thumbnailGlobalCommunity from "../../static/images/undraw_the_world_is_mine_nb0e.svg"
-import informationImage from "../../static/images/Information-document.svg"
-import { Link } from "gatsby"
+import { graphql, Link } from "gatsby"
+import BlogCards from "../components/blogCards"
 
-const IndexPage = () => (
+const IndexPage = ({data}) => (
     <Layout>
         <SEO title="Restoring faith in the post-trust era."/>
 
@@ -75,44 +75,14 @@ const IndexPage = () => (
         </div>
 
 
-
-        <div className={"container"}>
-            <div className={"targets"}>
+        <div className="container">
+            <div className={"blog-section"}>
                 <div className={"title"}>
                     <h2>Latest News</h2>
                 </div>
-
-                <div className={"row"}>
-                    <div className={"col-6"}>
-                        <div className={"item"}>
-                            <img alt={"Information"} src={informationImage}/>
-                            <h3>Handling of Employes’s Information and documents</h3>
-                            <p>Having a human management software for businesses and startups is not always cost-effective. HiStaff allows companies to archive their employees' documents and information free of charge.</p>
-                        </div>
-                    </div>
-                    <div className={"col-6"}>
-                        <div className={"item"}>
-                            <img alt={"Information"} src={informationImage}/>
-                            <h3>Handling of Employes’s Information and documents</h3>
-                            <p>Having a human management software for businesses and startups is not always cost-effective. HiStaff allows companies to archive their employees' documents and information free of charge.</p>
-                        </div>
-                    </div>
-                </div>
-                <div className={"row"}>
-                    <div className={"col-6"}>
-                        <div className={"item"}>
-                            <img alt={"Information"} src={informationImage}/>
-                            <h3>Handling of Employes’s Information and documents</h3>
-                            <p>Having a human management software for businesses and startups is not always cost-effective. HiStaff allows companies to archive their employees' documents and information free of charge.</p>
-                        </div>
-                    </div>
-                    <div className={"col-6"}>
-                        <div className={"item"}>
-                            <img alt={"Information"} src={informationImage}/>
-                            <h3>Handling of Employes’s Information and documents</h3>
-                            <p>More on our blog TODO</p>
-                        </div>
-                    </div>
+                <BlogCards posts={data.allGhostPost.edges}/>
+                <div className={"title"}>
+                    <h5><a href={"https://blog.evidence.fyi"}>Read more news on Evidence blog.</a></h5>
                 </div>
             </div>
         </div>
@@ -131,5 +101,20 @@ const IndexPage = () => (
         </div>
     </Layout>
 )
+
+export const query = graphql`
+  query {
+    allGhostPost(limit: 3, sort: {fields: published_at, order: DESC}) {
+      edges {
+        node {
+          title
+          feature_image
+          url
+          excerpt
+        }
+      }
+    }
+  }
+`
 
 export default IndexPage

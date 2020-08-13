@@ -248,6 +248,28 @@ body {
     }
   }
 
+  .blog-section {
+    line-height: 26px;
+    margin: 47px 0 23px;
+
+    .title {
+      margin: 0 0 44px 0;
+      text-align: center;
+      font-size: 26px;
+      color: #1E1C21;
+    }
+
+    .card {
+      .card-title {
+        margin-top: 0;
+      }
+
+      p {
+        margin: 0 0 16px;
+      }
+    }
+  }
+
   .targets {
     margin: 120px 0 0;
 

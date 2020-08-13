@@ -36,6 +36,13 @@ module.exports = {
                 }
             }
         },
+        {
+            resolve: `gatsby-source-ghost`,
+            options: {
+                apiUrl: `https://blog.evidence.fyi`,
+                contentApiKey: `149874a7203f6488187f27f5d5`,
+            },
+        },
         // this (optional) plugin enables Progressive Web App + Offline functionality
         // To learn more, visit: https://gatsby.dev/offline
         // `gatsby-plugin-offline`,
