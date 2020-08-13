@@ -82,7 +82,7 @@ const IndexPage = ({data}) => (
                 </div>
                 <BlogCards posts={data.allGhostPost.edges}/>
                 <div className={"title"}>
-                    <h5><a href={"https://blog.evidence.fyi"}>Read more news on Evidence blog.</a></h5>
+                    <h5><a href={"https://blog.evidence.fyi"}>Find more news on Evidence blog.</a></h5>
                 </div>
             </div>
         </div>
