@@ -4,6 +4,7 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import evidenceLogoBlack from "../../static/images/evidence_logo_black.svg"
 import evidencePurple from "../../static/images/evidence_purple.svg"
+import { Link } from "gatsby"
 
 const PressKitPage = () => (
     <Layout>
@@ -46,6 +47,9 @@ const PressKitPage = () => (
                         <li>Use these graphics as part of your own product, business, or service’s name.</li>
                     </ul>
                 </p>
+
+                <h3>Other Credits</h3>
+                <p>On our <Link to="/about" title={"About Us"}>statement page</Link>, images created by <a href="https://www.freepik.com/vectors/people">pch.vector</a> (man with the spyglass) and <a href="https://www.freepik.com/vectors/business">rawpixel.com</a> (people with puzzle pieces).</p>
             </div>
         </div>
     </Layout>
