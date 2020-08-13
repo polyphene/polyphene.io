@@ -9,7 +9,7 @@ const PrivacyPage = () => (
         <div className={"container"}>
             <div className={"content"}>
                 <div className={"title"}>
-                    <h1>Evidence Cloud Privacy Policy</h1>
+                    <h1>Privacy Policy</h1>
                 </div>
 
                 <p className={"italic"}>For our analytics, we use Matomo which mission is to liberate analytics. They believe in openness, privacy and 100% data ownership, and so does Evidence.</p>
