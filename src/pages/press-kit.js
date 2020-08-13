@@ -9,13 +9,14 @@ import { Link } from "gatsby"
 const PressKitPage = () => (
     <Layout>
         <SEO title="Press Kit"/>
+
+        <div className={"page-header"}>
+            <h2>Press Kit</h2>
+            <p>Thanks for your interest in Evidence.<br/>Here are a few guidelines for using the brand resources.</p>
+        </div>
+
         <div className={"container"}>
             <div className={"content"}>
-                <div className={"title"}>
-                    <h1>Press Kit</h1>
-                </div>
-
-                <p>Thanks for your interest in Evidence. Here are a few guidelines for using the brand resources.</p>
 
                 <h3>Name</h3>
                 <p>"Evidence" is one word spelled with a capital E.</p>
