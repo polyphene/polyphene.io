@@ -431,4 +431,54 @@ body {
       }
     }
   }
+
+  .form-style-8 {
+    width: calc(100% - 2 * 30px);
+    padding: 30px;
+    background: white;
+    margin: auto;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.22);
+    -moz-box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.22);
+    -webkit-box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.22);
+
+    input:not([type=checkbox]),
+    textarea,
+    select {
+      box-sizing: border-box;
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      outline: none;
+      display: block;
+      width: 100%;
+      padding: 7px;
+      border: none;
+      border-bottom: 1px solid #ddd;
+      background: transparent;
+      margin-bottom: 10px;
+      font-size: 16px;
+      height: 45px;
+      font-family: "Source Sans Pro", sans-serif;
+    }
+    textarea {
+      overflow: hidden;
+      height: 128px;
+    }
+
+    input[type="submit"] {
+      background-color: $evidence-purple;
+      display: inline-block;
+      cursor: pointer;
+      color: white;
+      padding: 8px 18px;
+      text-decoration: none;
+      margin-top: 10px;
+      margin-bottom: 0;
+      border-radius: 4px;
+      font-weight: bold;
+
+      &:hover, &:disabled {
+        background-color: rgba($evidence-purple, 0.6);
+      }
+    }
+  }
 }
