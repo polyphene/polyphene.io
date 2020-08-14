@@ -50,7 +50,11 @@ const PressKitPage = () => (
                 </p>
 
                 <h3>Other Credits</h3>
-                <p>On our <Link to="/about" title={"About Us"}>statement page</Link>, images created by <a href="https://www.freepik.com/vectors/people">pch.vector</a> (man with the spyglass) and <a href="https://www.freepik.com/vectors/business">rawpixel.com</a> (people with puzzle pieces).</p>
+                <p>
+                    On our <Link to="/about" title={"About Us"}>statement page</Link>, images created by <a href="https://www.freepik.com/vectors/people">pch.vector</a> (man with the spyglass) and <a href="https://www.freepik.com/vectors/business">rawpixel.com</a> (people with puzzle pieces).<br/>
+                    The theme of this website is inspired from <a href={"https://github.com/histaff/website-static"}>HiStaff</a>.
+
+                </p>
             </div>
         </div>
     </Layout>
