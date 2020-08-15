@@ -44,5 +44,13 @@ module.exports = {
                 contentApiKey: `149874a7203f6488187f27f5d5`,
             },
         },
+        {
+            resolve: 'gatsby-plugin-matomo',
+            options: {
+                siteId: 2,
+                matomoUrl: 'https://analytics.evidence.fyi',
+                siteUrl: 'https://evidence.fyi'
+            }
+        },
     ],
 }
