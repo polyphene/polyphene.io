@@ -21,13 +21,13 @@ module.exports = {
         {
             resolve: `gatsby-plugin-manifest`,
             options: {
-                name: `gatsby-starter-default`,
-                short_name: `starter`,
+                name: `Evidence`,
+                short_name: `Evidence`,
                 start_url: `/`,
-                background_color: `#663399`,
-                theme_color: `#FF54AC`,
+                background_color: `#eeeeee`,
+                theme_color: `#b780ff`,
                 display: `minimal-ui`,
-                icon: `${__dirname}/static/images/histaff.png`, // This path is relative to the root of the site.
+                icon: `${__dirname}/static/images/evidence_icon_2_256.png`,
             },
         },
         `gatsby-plugin-sass`,
