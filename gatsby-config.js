@@ -3,6 +3,9 @@ module.exports = {
         title: `Evidence`,
         description: `Restoring faith in the post-trust era.`,
         author: `@evidence_network`,
+        url: "https://evidence.fyi",
+        image: "/images/evidence_profile_picture.svg",
+        twitterUsername: "@evidence_network",
     },
     plugins: [
         `gatsby-plugin-react-helmet`,
