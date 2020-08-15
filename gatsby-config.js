@@ -16,8 +16,6 @@ module.exports = {
                 path: `${__dirname}/static/images`,
             },
         },
-        `gatsby-transformer-sharp`,
-        `gatsby-plugin-sharp`,
         {
             resolve: `gatsby-plugin-manifest`,
             options: {
@@ -46,8 +44,5 @@ module.exports = {
                 contentApiKey: `149874a7203f6488187f27f5d5`,
             },
         },
-        // this (optional) plugin enables Progressive Web App + Offline functionality
-        // To learn more, visit: https://gatsby.dev/offline
-        // `gatsby-plugin-offline`,
     ],
 }
