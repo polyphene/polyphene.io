@@ -1,6 +1,7 @@
 import React, { useState } from "react"
 import * as EmailValidator from 'email-validator';
 import axios from "axios";
+import TextareaAutosize from 'react-textarea-autosize';
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import contactImage from "../../static/images/undraw_work_chat_erdt.svg"
@@ -71,7 +72,7 @@ const ContactPage = () => {
                               <input type="text" value={name} onChange={e => setName(e.target.value)} placeholder="Full Name"/>
                               <input type="email" value={email} onChange={e => setEmail(e.target.value)} placeholder="Email"/>
                               <input type="text" value={company} onChange={e => setCompany(e.target.value)} placeholder="Company"/>
-                              <textarea value={message} onChange={e => setMessage(e.target.value)} placeholder="Message"/>
+                              <TextareaAutosize minRows={6} value={message} onChange={e => setMessage(e.target.value)} placeholder="Message"/>
                               <input type="checkbox" value={subscribe} onChange={e => setSubscribe(e.target.checked)}/>
                               <label htmlFor="subscribe">Subscribe to our newsletter.</label>
                               <input type="submit" value="Send Message" disabled={!canSubmit || pending}/>
