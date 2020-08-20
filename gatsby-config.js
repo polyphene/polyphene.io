@@ -41,7 +41,7 @@ module.exports = {
             resolve: `gatsby-source-ghost`,
             options: {
                 apiUrl: `https://blog.evidence.fyi`,
-                contentApiKey: `149874a7203f6488187f27f5d5`,
+                contentApiKey: `479a351734736fe78ee7b2c7f3`,
             },
         },
         {
