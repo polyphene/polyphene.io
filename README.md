@@ -1,16 +1,36 @@
-<!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
-<p align="center">
-  <a href="https://www.gatsbyjs.org">
-    <img alt="Gatsby" src="https://raw.githubusercontent.com/histaff/website-static/development/static/images/histaff.png" width="60" />
-  </a>
-</p>
-<h1 align="center">
-  HiStaff Static Website
-</h1>
+#  Evidence Website
 
-It's a starter static website which useful plugins based on [Gatsby](https://www.gatsbyjs.org/) .
+Sources of Evidence main website, hosted at https://evidence.fyi.
 
-## 🚀 Quick start
+Based on  [Gatsby](https://www.gatsbyjs.org/) and [HiStaff static website](https://github.com/histaff/website-static).
+
+## Script
+
+### Install
+
+```bash
+yarn
+```
+
+### Develop
+
+```bash
+yarn start
+```
+
+### Build
+
+```bash
+yarn build
+```
+
+You may also locally serve the built bundle.
+
+```bash
+yarn serve
+```
+
+## 🚀 Quick start from HiStaff
 
 1. **Install the Gatsby CLI.**
 
@@ -39,7 +59,7 @@ It's a starter static website which useful plugins based on [Gatsby](https://www
 
 At this point, you’ve got a fully functional Gatsby website. For additional information on how you can customize your Gatsby site, see our [plugins](https://gatsbyjs.org/plugins/) and [the official tutorial](https://gatsbyjs.org/tutorial/).
 
-## 🧐 Features
+## 🧐 Features of HiStaff
 * Support SCSS
 * Web font loader (Google and custom font)
 * Sample pages for starter
