@@ -67,9 +67,9 @@ const Layout = ({children}) => (
                     <div className={"col-3"}>
                         <div className={"widget__item"}>
                             <div className={"social"}>
-                                <a href="https://twitter.com/evidence_network" target={"_blank"} title={"Twitter"}><img alt={"Twitter"} src={iconTwitter}/></a>
+                                <a href="https://twitter.com/evidencehq" target={"_blank"} title={"Twitter"}><img alt={"Twitter"} src={iconTwitter}/></a>
                                 <a href="https://www.linkedin.com/company/evidence_network/" target={"_blank"} title={"LinkedIn"}><img alt={"LinkedIn"} src={iconLinkedin}/></a>
-                                <a href="https://github.com/evidence_network" target={"_blank"} title={"GitHub"}><img alt={"GitHub"} src={iconGitHub}/></a>
+                                <a href="https://github.com/evidence-network" target={"_blank"} title={"GitHub"}><img alt={"GitHub"} src={iconGitHub}/></a>
                                 <a href="https://discord.gg/TODO" target={"_blank"} title={"Discord"}><img alt={"Discord"} src={iconDiscord}/></a>
                             </div>
                         </div>

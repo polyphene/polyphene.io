@@ -2,10 +2,10 @@ module.exports = {
     siteMetadata: {
         title: `Evidence`,
         description: `Restoring faith in the post-trust era.`,
-        author: `@evidence_network`,
+        author: `@evidence-network`,
         url: "https://evidence.fyi",
         image: "/images/evidence_profile_picture.svg",
-        twitterUsername: "@evidence_network",
+        twitterUsername: "@evidencehq",
     },
     plugins: [
         `gatsby-plugin-react-helmet`,
