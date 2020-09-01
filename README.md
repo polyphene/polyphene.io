@@ -4,7 +4,7 @@ Sources of Evidence main website, hosted at https://evidence.fyi.
 
 Based on  [Gatsby](https://www.gatsbyjs.org/) and [HiStaff static website](https://github.com/histaff/website-static).
 
-## Script
+## Scripts
 
 ### Install
 
