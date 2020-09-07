@@ -15,7 +15,6 @@ import logo from "../../static/images/evidence_logo_black.svg"
 import iconTwitter from "../../static/images/icon-twitter.svg"
 import iconLinkedin from "../../static/images/icon-linkedin.svg"
 import iconGitHub from "../../static/images/icon-github.svg"
-import iconDiscord from "../../static/images/icon-discord.svg"
 
 const Layout = ({children}) => (
     <>
@@ -68,9 +67,8 @@ const Layout = ({children}) => (
                         <div className={"widget__item"}>
                             <div className={"social"}>
                                 <a href="https://twitter.com/evidencehq" target={"_blank"} title={"Twitter"}><img alt={"Twitter"} src={iconTwitter}/></a>
-                                <a href="https://www.linkedin.com/company/evidence_network/" target={"_blank"} title={"LinkedIn"}><img alt={"LinkedIn"} src={iconLinkedin}/></a>
+                                <a href="https://www.linkedin.com/company/evidence_network" target={"_blank"} title={"LinkedIn"}><img alt={"LinkedIn"} src={iconLinkedin}/></a>
                                 <a href="https://github.com/evidence-network" target={"_blank"} title={"GitHub"}><img alt={"GitHub"} src={iconGitHub}/></a>
-                                <a href="https://discord.gg/TODO" target={"_blank"} title={"Discord"}><img alt={"Discord"} src={iconDiscord}/></a>
                             </div>
                         </div>
                     </div>
