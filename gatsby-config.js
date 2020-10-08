@@ -25,7 +25,7 @@ module.exports = {
                 background_color: `#eeeeee`,
                 theme_color: `#b780ff`,
                 display: `minimal-ui`,
-                icon: `${__dirname}/static/images/evidence_icon_2_256.png`,
+                icon: `${__dirname}/static/images/evidence_icon_256.png`,
             },
         },
         `gatsby-plugin-sass`,
