@@ -33,6 +33,7 @@ const PrivacyPage = () => (
 
                 <h3>Opt-out of website tracking</h3>
                 <iframe
+                  title={"analytics opt-out module"}
                   width={"100%"}
                   src="https://analytics.evidence.fyi/index.php?module=CoreAdminHome&action=optOut&language=en&backgroundColor=&fontColor=797283&fontSize=16px&fontFamily=Source%20Sans%20Pro"
                 />
