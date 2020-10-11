@@ -45,6 +45,7 @@ const Layout = ({children}) => (
                                 <ul>
                                     <li><Link to="/about" title={"About Us"}>About</Link></li>
                                     <li><a href={"https://blog.evidence.fyi"}>Blog</a></li>
+                                    <li><Link to="/newsletter" title={"Newsletter"}>Newsletter</Link></li>
                                 </ul>
                             </ul>
                         </div>
