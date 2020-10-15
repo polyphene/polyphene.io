@@ -39,7 +39,7 @@ const NewsletterPage = () => {
       <SEO title="Newsletter" />
 
       <div className={"page-header"}>
-        <h2>SSI Developer Newsletter</h2>
+        <h2>SSI Dev Newsletter</h2>
         <p>
           Self-Sovereign Identity is a rapidly evolving world, especially on the
           technical side.
