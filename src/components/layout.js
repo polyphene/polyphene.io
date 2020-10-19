@@ -52,9 +52,6 @@ const Layout = ({ children }) => (
                     </Link>
                   </li>
                   <li>
-                    <a href={"https://blog.evidence.fyi"}>Blog</a>
-                  </li>
-                  <li>
                     <Link to="/newsletter" title={"Newsletter"}>
                       Newsletter
                     </Link>

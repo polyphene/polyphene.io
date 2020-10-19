@@ -7,9 +7,8 @@ import thumbnailSelfSovereignIdentity from "../../static/images/undraw_analyze_1
 import thumbnailSurveillance from "../../static/images/undraw_surveillance_re_8tkl.svg"
 import thumbnailGlobalCommunity from "../../static/images/undraw_the_world_is_mine_nb0e.svg"
 import { graphql, Link } from "gatsby"
-import BlogCards from "../components/blogCards"
 
-const IndexPage = ({ data }) => (
+const IndexPage = () => (
   <Layout>
     <SEO title="Restoring faith in the post-trust era." />
 
@@ -93,22 +92,6 @@ const IndexPage = ({ data }) => (
               </div>
             </div>
           </div>
-        </div>
-      </div>
-    </div>
-
-    <div className="container">
-      <div className={"blog-section"}>
-        <div className={"title"}>
-          <h2>Latest News</h2>
-        </div>
-        <BlogCards posts={data.allGhostPost.edges} />
-        <div className={"title"}>
-          <h5>
-            <a href={"https://blog.evidence.fyi"}>
-              Find more news on Evidence blog.
-            </a>
-          </h5>
         </div>
       </div>
     </div>
