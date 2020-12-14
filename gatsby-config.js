@@ -1,11 +1,11 @@
 module.exports = {
     siteMetadata: {
-        title: `Evidence`,
-        description: `Restoring faith in the post-trust era.`,
-        author: `@evidence-network`,
-        url: "https://evidence.fyi",
-        image: "/images/evidence_profile_picture.svg",
-        twitterUsername: "@evidencehq",
+        title: `Polyphene`,
+        description: `Build the universal data language.`,
+        author: `@polyphene`,
+        url: "https://polyphene.io",
+        image: "/images/polyphene_profile_picture.svg",
+        twitterUsername: "@polyphenehq",
     },
     plugins: [
         `gatsby-plugin-react-helmet`,
@@ -19,13 +19,13 @@ module.exports = {
         {
             resolve: `gatsby-plugin-manifest`,
             options: {
-                name: `Evidence`,
-                short_name: `Evidence`,
+                name: `Polyphene`,
+                short_name: `Polyphene`,
                 start_url: `/`,
                 background_color: `#eeeeee`,
                 theme_color: `#b780ff`,
                 display: `minimal-ui`,
-                icon: `${__dirname}/static/images/evidence_icon_256.png`,
+                icon: `${__dirname}/static/images/polyphene_icon_256.png`,
             },
         },
         `gatsby-plugin-sass`,
@@ -40,7 +40,7 @@ module.exports = {
         {
             resolve: `gatsby-source-ghost`,
             options: {
-                apiUrl: `https://blog.evidence.fyi`,
+                apiUrl: `https://blog.polyphene.io`,
                 contentApiKey: `479a351734736fe78ee7b2c7f3`,
             },
         },
@@ -48,8 +48,8 @@ module.exports = {
             resolve: 'gatsby-plugin-matomo',
             options: {
                 siteId: 2,
-                matomoUrl: 'https://analytics.evidence.fyi',
-                siteUrl: 'https://evidence.fyi'
+                matomoUrl: 'https://analytics.polyphene.io',
+                siteUrl: 'https://polyphene.io'
             }
         },
     ],

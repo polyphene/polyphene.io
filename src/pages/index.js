@@ -10,16 +10,16 @@ import { graphql, Link } from "gatsby"
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Restoring faith in the post-trust era." />
+    <SEO title="Restoring faith in the post-trust era."/>
 
     <div className={"page-header home"}>
-      <h1>Restoring Faith in the Post-Trust Era</h1>
+      <h1>Build the Universal Data Language</h1>
       <p>
-        Evidence is building an open network and set of tools
-        <br />
-        to democratize the decentralization and certification of data.
+        Polyphene is the largest directory of extensible data schemas
+        <br/>
+        powered by a collaborative platform to unlock meaningful data.
       </p>
-      <img alt={"Dashboard"} src={featureImage} />
+      <img alt={"Dashboard"} src={featureImage}/>
     </div>
 
     <div className={"container"}>
@@ -29,7 +29,7 @@ const IndexPage = () => (
             <div className={"col-6 first"}>
               <div className={"thumbnail"}>
                 <img
-                  alt={"Self-Sovereign Identity"}
+                  alt={"Open and Rich Registry"}
                   src={thumbnailSelfSovereignIdentity}
                 />
               </div>
@@ -38,13 +38,11 @@ const IndexPage = () => (
             <div className={"col-6"}>
               <div className={"feature__content"}>
                 <h2>
-                  One of the Most Advanced Network of Self-Sovereign Identities
+                  Explore an Open and Rich Registry
                 </h2>
                 <p>
-                  Drawing on years of experience in the field of distributed and
-                  decentralized architectures, Evidence is building one of the
-                  most advanced network of Self-Sovereign Identities : simple to
-                  integrate, interoperable and high-performance.
+                  of schemas used in different sectors and activities to gain efficiency in your projects and push
+                  towards standardization.
                 </p>
               </div>
             </div>
@@ -55,19 +53,17 @@ const IndexPage = () => (
           <div className={"row"}>
             <div className={"col-6"}>
               <div className={"feature__content"}>
-                <h2>An Unrivalled Level of Security</h2>
+                <h2>Collaborate using our Advanced Editor</h2>
                 <p>
-                  Our network enables not to share any personal data.
-                  <br />
-                  It uses cutting-edge cryptography (Zero-Knowledge Proofs) to
-                  prove characteristics on it without even disclosing it.
+                  by editing and mapping schemas, accessing their version history, publishing suggestions or comments,
+                  and more.
                 </p>
               </div>
             </div>
 
             <div className={"col-6 first"}>
               <div className={"thumbnail"}>
-                <img alt={"Surveillance"} src={thumbnailSurveillance} />
+                <img alt={"Advanced Editor"} src={thumbnailSurveillance}/>
               </div>
             </div>
           </div>
@@ -77,17 +73,16 @@ const IndexPage = () => (
           <div className={"row"}>
             <div className={"col-6 first"}>
               <div className={"thumbnail"}>
-                <img alt={"Global Community"} src={thumbnailGlobalCommunity} />
+                <img alt={"Interoperate with Others"} src={thumbnailGlobalCommunity}/>
               </div>
             </div>
 
             <div className={"col-6"}>
               <div className={"feature__content"}>
-                <h2>An Open Community</h2>
+                <h2>Interoperate with Others</h2>
                 <p>
-                  Evidence coordinates the efforts of an open, global community
-                  to produce the most comprehensive specifications and useful
-                  tools.
+                  by globally promoting schemas currently implemented in your projects to streamline your integration
+                  efforts.
                 </p>
               </div>
             </div>

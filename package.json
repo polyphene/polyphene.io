@@ -1,9 +1,9 @@
 {
-  "name": "evidence",
+  "name": "polyphene",
   "private": true,
-  "description": "Evidence website",
+  "description": "Polyphene website",
   "version": "0.1.0",
-  "author": "Evidence",
+  "author": "Polyphene",
   "dependencies": {
     "axios": "^0.19.2",
     "email-validator": "^2.0.4",

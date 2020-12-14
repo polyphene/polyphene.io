@@ -15,7 +15,7 @@ const PrivacyPage = () => (
         <p className={"italic"}>
           For our analytics, we use Matomo which mission is to liberate
           analytics. They believe in openness, privacy and 100% data ownership,
-          and so does Evidence.
+          and so does Polyphene.
         </p>
 
         <p>
@@ -24,18 +24,18 @@ const PrivacyPage = () => (
           whether and how that information may be shared and your rights and
           choices regarding the information you provide to us. This Privacy
           Policy applies to the information that we obtain through your use of
-          Evidence websites including its subdomain{" "}
-          <a href={"https://blog.evidence.fyi"}>blog.evidence.fyi</a>.
+          Polyphene websites including its subdomain{" "}
+          <a href={"https://blog.polyphene.io"}>blog.polyphene.io</a>.
         </p>
 
         <h3>Who We Are</h3>
         <p>
-          Evidence is a project brought to you by the Evidence team members as
+          Polyphene is a project brought to you by the Polyphene team members as
           well as many other contributors around the globe.
           <br />
           If you have any questions about this privacy policy, please contact
           our team at{" "}
-          <a href={"mailto:contact@evidence.fyi"}>contact@evidence.fyi</a>.
+          <a href={"mailto:contact@polyphene.io"}>contact@polyphene.io</a>.
         </p>
 
         <h3>What We Collect and Receive</h3>
@@ -67,7 +67,7 @@ const PrivacyPage = () => (
         <iframe
           title={"analytics opt-out module"}
           width={"100%"}
-          src="https://analytics.evidence.fyi/index.php?module=CoreAdminHome&action=optOut&language=en&backgroundColor=&fontColor=797283&fontSize=16px&fontFamily=Source%20Sans%20Pro"
+          src="https://analytics.polyphene.io/index.php?module=CoreAdminHome&action=optOut&language=en&backgroundColor=&fontColor=797283&fontSize=16px&fontFamily=Source%20Sans%20Pro"
         />
 
         <h3>Your Rights</h3>
@@ -83,8 +83,8 @@ const PrivacyPage = () => (
           delete any data that we store on behalf of our users or customers. To
           exercise any of the rights mentioned in this Privacy Policy and/or in
           the event of questions or comments relating to the use of Personal
-          Data you may contact Evidence's team:{" "}
-          <a href={"mailto:contact@evidence.fyi"}>contact@evidence.fyi</a>. In
+          Data you may contact Polyphene's team:{" "}
+          <a href={"mailto:contact@polyphene.io"}>contact@polyphene.io</a>. In
           addition, you have the right to lodge a complaint with the data
           protection authority in your jurisdiction.
         </p>
@@ -113,11 +113,11 @@ const PrivacyPage = () => (
         <h3>Contact Us</h3>
         <p>
           Email:{" "}
-          <a href={"mailto:contact@evidence.fyi"}>contact@evidence.fyi</a>.
+          <a href={"mailto:contact@polyphene.io"}>contact@polyphene.io</a>.
           <br />
           Contact form:{" "}
-          <a href={"https://evidence.fyi/contact"}>
-            https://evidence.fyi/contact
+          <a href={"https://polyphene.io/contact"}>
+            https://polyphene.io/contact
           </a>
           .
         </p>

@@ -1,8 +1,8 @@
-#  Evidence Website
+# Main Website
 
-Sources of Evidence main website, hosted at https://evidence.fyi.
+Sources of Polyphene main website, hosted at https://polyphene.io.
 
-Based on  [Gatsby](https://www.gatsbyjs.org/) and [HiStaff static website](https://github.com/histaff/website-static).
+Based on [Gatsby](https://www.gatsbyjs.org/) and [HiStaff static website](https://github.com/histaff/website-static).
 
 ## Scripts
 

@@ -22,7 +22,7 @@ const ContactPage = () => {
     // submit message
     setPending(true)
     try {
-      await axios.post("https://contact-form-api.evidence.fyi/submit", {
+      await axios.post("https://contact-form-api.polyphene.io/submit", {
         name,
         email,
         company,
@@ -127,7 +127,7 @@ const ContactPage = () => {
               </p>
               <p>
                 Plain email is also a good way to contact us:{" "}
-                <a href={"mailto:contact@evidence.fyi"}>contact@evidence.fyi</a>
+                <a href={"mailto:contact@polyphene.io"}>contact@polyphene.io</a>
                 .
               </p>
             </div>

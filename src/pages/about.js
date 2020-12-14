@@ -7,14 +7,14 @@ import missionImage from "../../static/images/about-mission.svg"
 
 const AboutPage = () => (
   <Layout>
-    <SEO title="About" />
+    <SEO title="About"/>
 
     <div className={"page-header"}>
-      <h2>What is Evidence?</h2>
+      <h2>What is Polyphene?</h2>
       <p>
-        Evidence is building an open network and set of tools
-        <br />
-        to democratize the decentralization and certification of data.
+        Polyphene is the largest directory of extensible data schemas
+        <br/>
+        powered by a collaborative platform to unlock meaningful data.
       </p>
     </div>
 
@@ -27,32 +27,28 @@ const AboutPage = () => (
         <div className={"row"}>
           <div className={"col-6"}>
             <div className={"item"}>
-              <img alt={"Vision"} src={visionImage} />
+              <img alt={"Vision"} src={visionImage}/>
               <h3>Vision</h3>
               <p>
-                At Evidence, we envision a world where data of individuals and
-                entities are not trapped in closed ecosystems but managed by
-                their rightful owners in open networks. Rethinking how data is
-                certified and disclosed enables new forms of collaboration in a
-                world of widespread trust. From this paradigm shift will emerge
-                diverse, prosperous and independent services and applications.
+                At Polyphene, we envision a world where data sharing reaches new potential and takes on a new meaning.
+                Rethinking how data is designed enables new forms of collaboration in a world of widespread trust. From
+                this light conceptual shift will emerge diverse, prosperous and independent services and applications.
               </p>
             </div>
           </div>
 
           <div className={"col-6"}>
             <div className={"item"}>
-              <img alt={"Mission"} src={missionImage} />
+              <img alt={"Mission"} src={missionImage}/>
               <h3>Mission</h3>
               <p>
-                Evidence is an infrastructure and service provider building a
-                global network to securely own and exchange data at scale
-                between individuals and entities. Evidence’s work relies on
-                cutting-edge technologies to unleash the power of data with
-                minimal disclosure.
+                Polyphene provides a collaborative platform generating a rich and extensible registry of data schemas to
+                unify models and semantics at all stages of the data life cycle. Polyphene's work relies on open
+                standards to serve as a pillar of a universal data language.
               </p>
             </div>
           </div>
+          {/*TODO add team*/}
         </div>
       </div>
     </div>

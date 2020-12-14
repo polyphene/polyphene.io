@@ -2,8 +2,8 @@ import React from "react"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import evidenceLogoBlack from "../../static/images/evidence_logo_black.svg"
-import evidencePurple from "../../static/images/evidence_purple.svg"
+import polypheneLogoBlack from "../../static/images/polyphene_logo_black.svg"
+import polyphenePurple from "../../static/images/polyphene_purple.svg"
 import { Link } from "gatsby"
 
 const PressKitPage = () => (
@@ -13,7 +13,7 @@ const PressKitPage = () => (
     <div className={"page-header"}>
       <h2>Press Kit</h2>
       <p>
-        Thanks for your interest in Evidence.
+        Thanks for your interest in Polyphene.
         <br />
         Here are a few guidelines for using the brand resources.
       </p>
@@ -22,13 +22,13 @@ const PressKitPage = () => (
     <div className={"container"}>
       <div className={"content"}>
         <h3>Name</h3>
-        <p>"Evidence" is one word spelled with a capital E.</p>
+        <p>"Polyphene" is one word spelled with a capital P.</p>
 
         <h3>Logos</h3>
-        <img alt="Evidence logo" src={evidenceLogoBlack} width="256" />
+        <img alt="Polyphene logo" src={polypheneLogoBlack} width="256" />
         <p>
           You may download logos{" "}
-          <a href={"https://cloud.evidence.fyi/s/s4M9cA7ZfgPT2p5/download"}>
+          <a href={"https://cloud.polyphene.io/s/s4M9cA7ZfgPT2p5/download"}>
             here
           </a>{" "}
           (2MB). They are available in multiple sizes, formats and colors. You
@@ -36,8 +36,8 @@ const PressKitPage = () => (
         </p>
 
         <h3>Colors</h3>
-        <p>Evidence Purple is our hero color.</p>
-        <img alt="Evidence Purple color" src={evidencePurple} width="128" />
+        <p>Polyphene Purple is our hero color.</p>
+        <img alt="Polyphene Purple color" src={polyphenePurple} width="128" />
 
         <h3>Friendly Legal Reminder</h3>
         <p>
@@ -50,7 +50,7 @@ const PressKitPage = () => (
           Please do:
           <ul>
             <li>
-              Provide sufficient space around the Evidence logo to keep it
+              Provide sufficient space around the Polyphene logo to keep it
               uncluttered and clear in relation to other objects.
             </li>
           </ul>
@@ -59,17 +59,17 @@ const PressKitPage = () => (
           Please don't:
           <ul>
             <li>
-              Use any logos or images to represent Evidence other than images
+              Use any logos or images to represent Polyphene other than images
               provided on this page.
             </li>
             <li>
               Modify logos in any way (e.g. change colors, apply effects, or
               alter the size and position of the icon in relation to the
-              Evidence name).
+              Polyphene name).
             </li>
             <li>
               Use the logo in a manner that would imply a relationship,
-              affiliation, or endorsement by Evidence of your product, service,
+              affiliation, or endorsement by Polyphene of your product, service,
               or business.
             </li>
             <li>

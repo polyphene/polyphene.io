@@ -10,7 +10,7 @@ body {
   }
 
   a {
-    color: $evidence-purple;
+    color: $brand-purple;
 
     &:hover, &:active {
       color: #b780ff;
@@ -48,7 +48,7 @@ body {
           font-size: 16px;
           line-height: 47px;
           display: block;
-          background: $evidence-purple;
+          background: $brand-purple;
           border-radius: 4px;
           text-align: center;
           color: white;
@@ -170,7 +170,7 @@ body {
   }
 
   .call-to-action {
-    background-color: $evidence-purple;
+    background-color: $brand-purple;
     color: #ffffff;
     padding: 65px 0;
     border-radius: 40px 40px 0px 0px;
@@ -211,7 +211,7 @@ body {
         justify-content: center;
         font-weight: bold;
         flex-direction: column;
-        color: $evidence-purple;
+        color: $brand-purple;
 
         @media screen and (max-width: $break-small) {
           margin: 0 auto;
@@ -461,7 +461,7 @@ body {
     }
 
     input[type="submit"] {
-      background-color: $evidence-purple;
+      background-color: $brand-purple;
       display: inline-block;
       cursor: pointer;
       color: white;
@@ -473,7 +473,7 @@ body {
       font-weight: bold;
 
       &:hover, &:disabled {
-        background-color: rgba($evidence-purple, 0.6);
+        background-color: rgba($brand-purple, 0.6);
       }
     }
   }
