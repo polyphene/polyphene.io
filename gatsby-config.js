@@ -1,9 +1,9 @@
 module.exports = {
     siteMetadata: {
-        title: `Polyphene`,
-        description: `Build the universal data language.`,
+        title: `Holium`,
+        description: `Holistic data.`,
         author: `@polyphene`,
-        url: "https://polyphene.io",
+        url: "https://holium.org",
         image: "/images/polyphene_profile_picture.svg",
         twitterUsername: "@polyphenehq",
     },
@@ -19,8 +19,8 @@ module.exports = {
         {
             resolve: `gatsby-plugin-manifest`,
             options: {
-                name: `Polyphene`,
-                short_name: `Polyphene`,
+                name: `Holium`,
+                short_name: `Holium`,
                 start_url: `/`,
                 background_color: `#eeeeee`,
                 theme_color: `#b780ff`,
@@ -47,9 +47,9 @@ module.exports = {
         {
             resolve: 'gatsby-plugin-matomo',
             options: {
-                siteId: 2,
+                siteId: 3,
                 matomoUrl: 'https://analytics.polyphene.io',
-                siteUrl: 'https://polyphene.io'
+                siteUrl: 'https://holium.org'
             }
         },
     ],
