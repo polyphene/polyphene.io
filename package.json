@@ -1,7 +1,7 @@
 {
-  "name": "polyphene",
+  "name": "holium.org",
   "private": true,
-  "description": "Polyphene website",
+  "description": "holium.org website",
   "version": "0.1.0",
   "author": "Polyphene",
   "dependencies": {
