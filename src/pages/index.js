@@ -10,14 +10,14 @@ import { Link } from "gatsby"
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Restoring faith in the post-trust era."/>
+    <SEO title="Holistic data."/>
 
     <div className={"page-header home"}>
-      <h1>Build the Universal Data Language</h1>
+      <h1>Holistic Data</h1>
       <p>
-        Polyphene is the largest directory of extensible data schemas
+        Holium is the digital element that contains both the data
         <br/>
-        powered by a collaborative platform to unlock meaningful data.
+        and its transformation history for unparalleled transparency.
       </p>
       <img alt={"Dashboard"} src={featureImage}/>
     </div>
@@ -38,11 +38,12 @@ const IndexPage = () => (
             <div className={"col-6"}>
               <div className={"feature__content"}>
                 <h2>
-                  Explore an Open and Rich Registry
+                  A new way to Transform Data
                 </h2>
                 <p>
-                  of schemas used in different sectors and activities to gain efficiency in your projects and push
-                  towards standardization.
+                  Using a deterministic WebAssembly virtual machine and Holium’s data structure,
+                  run atomic and modular <b>transformations</b> (e.g. delete personal information, add context, etc.)
+                  on data to change its structure.
                 </p>
               </div>
             </div>
@@ -53,10 +54,13 @@ const IndexPage = () => (
           <div className={"row"}>
             <div className={"col-6"}>
               <div className={"feature__content"}>
-                <h2>Collaborate using our Advanced Editor</h2>
+                <h2>
+                  Create and Share Transformations
+                </h2>
                 <p>
-                  by editing and mapping schemas, accessing their version history, publishing suggestions or comments,
-                  and more.
+                  Develop and run your own transformations
+                  as well as run transformations developed by others
+                  and stored on a shared registry.
                 </p>
               </div>
             </div>
@@ -79,10 +83,14 @@ const IndexPage = () => (
 
             <div className={"col-6"}>
               <div className={"feature__content"}>
-                <h2>Interoperate with Others</h2>
+                <h2>
+                  Replay every Transformations
+                </h2>
                 <p>
-                  by globally promoting schemas currently implemented in your projects to streamline your integration
-                  efforts.
+                  Anyone is able to replay transformations ran on data
+                  up to the initial data structure thanks to Holium’s characteristics.
+                  As a result, the transformation history of any data is no longer a « black box »
+                  but a « glass box » in full view of everyone for transparency and accountability.
                 </p>
               </div>
             </div>
