@@ -41,46 +41,6 @@ const Layout = ({ children }) => (
             </div>
           </div>
 
-          <div className={"col-2"}>
-            <div className={"widget__item"}>
-              <ul className={"links"}>
-                <h4>Polyphene</h4>
-                <ul>
-                  <li>
-                    <Link to="/about" title={"About Us"}>
-                      About
-                    </Link>
-                  </li>
-                </ul>
-              </ul>
-            </div>
-          </div>
-
-          <div className={"col-2"}>
-            <div className={"widget__item"}>
-              <div className={"links"}>
-                <h4>Support</h4>
-                <ul>
-                  <li>
-                    <Link to="/contact" title={"Contact Us"}>
-                      Contact
-                    </Link>
-                  </li>
-                  <li>
-                    <Link to="/press-kit" title={"Press Kit"}>
-                      Press Kit
-                    </Link>
-                  </li>
-                  <li>
-                    <Link to="/privacy" title={"Privacy Policy"}>
-                      Privacy
-                    </Link>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-
           <div className={"col-3"}>
             <div className={"widget__item"}>
               <div className={"social"}>
