@@ -11,10 +11,6 @@ import { Link } from "gatsby"
 
 import Header from "./header"
 import "../../static/styles/main.scss"
-import logo from "../../static/images/polyphene_logo_black.svg"
-import iconTwitter from "../../static/images/icon-twitter.svg"
-import iconLinkedin from "../../static/images/icon-linkedin.svg"
-import iconGitHub from "../../static/images/icon-github.svg"
 
 const Layout = ({ children }) => (
   <>
@@ -22,62 +18,11 @@ const Layout = ({ children }) => (
     <main>{children}</main>
     <footer>
       <div className={"container"}>
-        <div className={"row"}>
-          <div className={"col-5"}>
-            <div className={"widget__item"}>
-              <div className={"logo"}>
-                <Link to="/" title={"Polyphene"}>
-                  <img alt={"Logo"} src={logo} />
-                </Link>
-              </div>
-
-              <div className={"about"}>
-                <p>Build the universal data language.</p>
-                <p>
-                  Polyphene is the largest directory of extensible data schemas
-                  powered by a collaborative platform to unlock meaningful data.
-                </p>
-              </div>
-            </div>
-          </div>
-
-          <div className={"col-3"}>
-            <div className={"widget__item"}>
-              <div className={"social"}>
-                <a
-                  href="https://twitter.com/polyphenehq"
-                  target={"_blank"}
-                  rel={"noreferrer"}
-                  title={"Twitter"}
-                >
-                  <img alt={"Twitter"} src={iconTwitter} />
-                </a>
-                <a
-                  href="https://www.linkedin.com/company/polyphenehq"
-                  target={"_blank"}
-                  rel={"noreferrer"}
-                  title={"LinkedIn"}
-                >
-                  <img alt={"LinkedIn"} src={iconLinkedin} />
-                </a>
-                <a
-                  href="https://github.com/polyphene"
-                  target={"_blank"}
-                  rel={"noreferrer"}
-                  title={"GitHub"}
-                >
-                  <img alt={"GitHub"} src={iconGitHub} />
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-
         <div className={"copyright"}>
           <p>
             Copyright {new Date().getFullYear()}, {` `}{" "}
-            <Link to="/" title={"Polyphene"}>
-              Polyphene
+            <Link to="/" title={"Holium"}>
+              Holium
             </Link>
             . All rights reserved.
           </p>

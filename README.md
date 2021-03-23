@@ -1,6 +1,6 @@
 # Main Website
 
-Sources of Polyphene main website, hosted at https://polyphene.io.
+Sources of Holium.org main website, hosted at https://holium.org.
 
 Based on [Gatsby](https://www.gatsbyjs.org/) and [HiStaff static website](https://github.com/histaff/website-static).
 
