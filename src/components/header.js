@@ -11,10 +11,6 @@ const Header = () => (
             <img alt={"Logo"} src={logo} />
           </Link>
         </div>
-
-        <div className={"get-started"}>
-          <Link to="/contact">Contact Us</Link>
-        </div>
       </div>
     </div>
   </header>

@@ -6,7 +6,6 @@ import featureImage from "../../static/images/undraw_through_the_park_lxnl.svg"
 import thumbnailSelfSovereignIdentity from "../../static/images/undraw_analyze_17kw.svg"
 import thumbnailSurveillance from "../../static/images/undraw_surveillance_re_8tkl.svg"
 import thumbnailGlobalCommunity from "../../static/images/undraw_the_world_is_mine_nb0e.svg"
-import { Link } from "gatsby"
 
 const IndexPage = () => (
   <Layout>
@@ -95,23 +94,6 @@ const IndexPage = () => (
               </div>
             </div>
           </div>
-        </div>
-      </div>
-    </div>
-
-    <div className={"call-to-action"}>
-      <div className={"container"}>
-        <div className={"call-to-action__content"}>
-          <h2>Get started</h2>
-          <p>
-            Contact us to access early releases and engage in the community.
-          </p>
-        </div>
-
-        <div className={"button"}>
-          <Link to="/contact" title={"Contact Us"}>
-            Contact Us
-          </Link>
         </div>
       </div>
     </div>
