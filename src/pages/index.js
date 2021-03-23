@@ -6,7 +6,7 @@ import featureImage from "../../static/images/undraw_through_the_park_lxnl.svg"
 import thumbnailSelfSovereignIdentity from "../../static/images/undraw_analyze_17kw.svg"
 import thumbnailSurveillance from "../../static/images/undraw_surveillance_re_8tkl.svg"
 import thumbnailGlobalCommunity from "../../static/images/undraw_the_world_is_mine_nb0e.svg"
-import { graphql, Link } from "gatsby"
+import { Link } from "gatsby"
 
 const IndexPage = () => (
   <Layout>
@@ -109,20 +109,5 @@ const IndexPage = () => (
     </div>
   </Layout>
 )
-
-export const query = graphql`
-  query {
-    allGhostPost(limit: 3, sort: { fields: published_at, order: DESC }) {
-      edges {
-        node {
-          title
-          feature_image
-          url
-          excerpt
-        }
-      }
-    }
-  }
-`
 
 export default IndexPage

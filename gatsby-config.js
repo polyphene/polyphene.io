@@ -38,13 +38,6 @@ module.exports = {
             }
         },
         {
-            resolve: `gatsby-source-ghost`,
-            options: {
-                apiUrl: `https://blog.polyphene.io`,
-                contentApiKey: `479a351734736fe78ee7b2c7f3`,
-            },
-        },
-        {
             resolve: 'gatsby-plugin-matomo',
             options: {
                 siteId: 3,
