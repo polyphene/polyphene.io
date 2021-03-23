@@ -1,6 +1,6 @@
 import { Link } from "gatsby"
 import React from "react"
-import logo from "../../static/images/polyphene_logo_black.svg"
+import logo from "../../static/images/holium_logo.svg"
 
 const Header = () => (
   <header>

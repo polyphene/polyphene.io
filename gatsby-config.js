@@ -4,8 +4,6 @@ module.exports = {
         description: `Holistic data.`,
         author: `@polyphene`,
         url: "https://holium.org",
-        image: "/images/polyphene_profile_picture.svg",
-        twitterUsername: "@polyphenehq",
     },
     plugins: [
         `gatsby-plugin-react-helmet`,
@@ -25,7 +23,6 @@ module.exports = {
                 background_color: `#eeeeee`,
                 theme_color: `#b780ff`,
                 display: `minimal-ui`,
-                icon: `${__dirname}/static/images/polyphene_icon_256.png`,
             },
         },
         `gatsby-plugin-sass`,
