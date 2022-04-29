@@ -20,7 +20,7 @@ function SEO() {
             author
             image
             twitterUsername
-            url
+            siteUrl
           }
         }
       }
@@ -33,7 +33,7 @@ function SEO() {
     author,
     image,
     twitterUsername,
-    url,
+    siteUrl,
   } = site.siteMetadata
 
   return (
@@ -66,7 +66,7 @@ function SEO() {
         },
         {
           property: `og:url`,
-          content: url,
+          content: siteUrl,
         },
         {
           name: `twitter:card`,

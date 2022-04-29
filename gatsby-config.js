@@ -3,7 +3,7 @@ module.exports = {
     title: `Polyphene`,
     description: `Give people the freedom to collaborate.`,
     author: `@polyphenehq`,
-    url: "https://polyphene.io",
+    siteUrl: "https://polyphene.io",
     image: "/assets/polyphene_profile_picture.svg",
     twitterUsername: "@polyphenehq",
   },
