@@ -1,68 +1,42 @@
-# Main Website
+# [polyphene.io](https://polyphene.io)
 
-Sources of Polyphene main website, hosted at https://polyphene.io.
+Sources of [polyphene.io](https://polyphene.io).
 
-Based on [Gatsby](https://www.gatsbyjs.org/) and [HiStaff static website](https://github.com/histaff/website-static).
+Based on [Gatsby](https://www.gatsbyjs.org/) and [Cruip's free template](https://github.com/cruip/tailwind-landing-page-template).
 
-Other assets (email signature and newsletter logos) are also stored in `./static/assets/`.
+Other assets (email signature, newsletter logos,…) are also stored in `./static/assets/`.
+d structure
 
-## Scripts
+## 🚀 Quick start
 
-### Install
+1. **Start developing.**
 
-```bash
-yarn
-```
+   Navigate into your new site’s directory and start it up.
 
-### Develop
+    ```shell
+    npm run develop
+    ```
 
-```bash
-yarn start
-```
+2. **Open the code and start customizing!**
 
-### Build
+   Your site is now running at http://localhost:8000!
 
-```bash
-yarn build
-```
+   Edit `src/pages/index.js` to see your site update in real-time!
 
-You may also locally serve the built bundle.
+3. **Learn more**
 
-```bash
-yarn serve
-```
+   - [Documentation](https://www.gatsbyjs.com/docs/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
 
-## 🚀 Quick start from HiStaff
+   - [Tutorials](https://www.gatsbyjs.com/tutorial/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
 
-1. **Install the Gatsby CLI.**
+   - [Guides](https://www.gatsbyjs.com/tutorial/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
 
-   ```shell
-   npm install -g gatsby-cli
-   ```
+   - [API Reference](https://www.gatsbyjs.com/docs/api-reference/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
 
-2. **Create a Gatsby site from HiStaff.**
+   - [Plugin Library](https://www.gatsbyjs.com/plugins?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
 
-   ```sh
-   gatsby new histaff https://github.com/histaff/website-static/
-   ```
+   - [Cheat Sheet](https://www.gatsbyjs.com/docs/cheat-sheet/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
 
-3. **Start the site in `develop` mode.**
+## 🚀 Deployment
 
-   Next, move into your new site’s directory and start it up:
-
-   ```sh
-   cd histaff/
-   gatsby develop
-   ```
-
-4. **Open the source code and start editing!**
-
-   Your site is now running at `http://localhost:8000`. Open the `histaff` directory in your code editor of choice and edit `src/pages/index.js`. Save your changes, and the browser will update in real time!
-
-At this point, you’ve got a fully functional Gatsby website. For additional information on how you can customize your Gatsby site, see our [plugins](https://gatsbyjs.org/plugins/) and [the official tutorial](https://gatsbyjs.org/tutorial/).
-
-## 🧐 Features of HiStaff
-* Support SCSS
-* Web font loader (Google and custom font)
-* Sample pages for starter
-* Clean code and structure
+Continuously deployed using the [DigitalOcean App Platform](https://cloud.digitalocean.com/apps/?i=46b35e).

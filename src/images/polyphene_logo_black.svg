@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg viewBox="0 0 405 150" xmlns="http://www.w3.org/2000/svg" xmlns:bx="https://boxy-svg.com">
+  <defs>
+    <filter id="drop-shadow-filter-0" x="-500%" y="-500%" width="1000%" height="1000%" bx:preset="drop-shadow 1 0 0 10 0.667 rgba(0,0,0,0.3)">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="10" id="feGaussianBlur28"/>
+      <feOffset dx="0" dy="0" id="feOffset30"/>
+      <feComponentTransfer result="offsetblur" id="feComponentTransfer33">
+        <feFuncA id="spread-ctrl" type="linear" slope="1.334"/>
+      </feComponentTransfer>
+      <feFlood flood-color="rgba(0,0,0,0.3)" id="feFlood35"/>
+      <feComposite in2="offsetblur" operator="in" id="feComposite37"/>
+      <feMerge id="feMerge43">
+        <feMergeNode id="feMergeNode39"/>
+        <feMergeNode in="SourceGraphic" id="feMergeNode41"/>
+      </feMerge>
+    </filter>
+    <filter id="filter-1" x="-500%" y="-500%" width="1000%" height="1000%" bx:preset="drop-shadow 1 0 0 10 0.667 rgba(0,0,0,0.3)">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="10" id="feGaussianBlur46"/>
+      <feOffset dx="0" dy="0" id="feOffset48"/>
+      <feComponentTransfer result="offsetblur" id="feComponentTransfer51">
+        <feFuncA id="feFuncA-1" type="linear" slope="1.334"/>
+      </feComponentTransfer>
+      <feFlood flood-color="rgba(0,0,0,0.3)" id="feFlood53"/>
+      <feComposite in2="offsetblur" operator="in" id="feComposite55"/>
+      <feMerge id="feMerge61">
+        <feMergeNode id="feMergeNode57"/>
+        <feMergeNode in="SourceGraphic" id="feMergeNode59"/>
+      </feMerge>
+    </filter>
+    <filter id="filter-2" x="-500%" y="-500%" width="1000%" height="1000%" bx:preset="drop-shadow 1 0 0 10 0.667 rgba(0,0,0,0.3)">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="10" id="feGaussianBlur64"/>
+      <feOffset dx="0" dy="0" id="feOffset66"/>
+      <feComponentTransfer result="offsetblur" id="feComponentTransfer69">
+        <feFuncA id="feFuncA-2" type="linear" slope="1.334"/>
+      </feComponentTransfer>
+      <feFlood flood-color="rgba(0,0,0,0.3)" id="feFlood71"/>
+      <feComposite in2="offsetblur" operator="in" id="feComposite73"/>
+      <feMerge id="feMerge79">
+        <feMergeNode id="feMergeNode75"/>
+        <feMergeNode in="SourceGraphic" id="feMergeNode77"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <g transform="matrix(1, 0, 0, 1, -0.3125, 15.468152)">
+    <g id="layer1" transform="matrix(1, 0, 0, 1, 54.984375, -216.277527)" style="filter: none;">
+      <text id="text833" style="font-family: &quot;Prodigy Sans&quot;; font-size: 80px; font-weight: 300; line-height: 26.4584px; white-space: pre;" y="295.911" x="-34.464">polyphene</text>
+    </g>
+    <g style="" transform="matrix(0.227896, 0, 0, 0.227896, 34.400726, 33.790627)">
+      <circle style="filter:url(#drop-shadow-filter-0);fill:#80adff;fill-opacity:1" cx="311.829" cy="332.406" r="75" id="circle84"/>
+      <circle style="filter:url(#filter-1);fill:#b780ff;fill-opacity:1" cx="195" cy="250" r="75" transform="matrix(0, -1, 1, 0, -80.671768, 527.406311)" id="circle86"/>
+      <circle style="filter:url(#filter-2);fill:#e580ff;fill-opacity:1" cx="26.827" cy="332.406" r="75" id="circle88"/>
+    </g>
+  </g>
+</svg>
