@@ -1,4 +1,6 @@
 import React  from 'react';
+import HoliumLogo from '../images/holium_logo_black.svg';
+import NFTrustLogo from '../images/nftrust_logo_black.svg';
 
 function HeroHome() {
 
@@ -40,6 +42,17 @@ function HeroHome() {
                 <a href="https://nftrust.xyz" className="underline font-medium">NFTrust</a>
                 .
               </p>
+            </div>
+
+            <div className="max-w-xl mx-auto mt-12">
+              <div className="flex flex-col lg:flex-row justify-evenly items-center">
+                <a href="https://holium.org" className="mb-4">
+                  <HoliumLogo className="transition h-10 grayscale hover:grayscale-0 opacity-50 hover:opacity-100"/>
+                </a>
+                <a href="https://nftrust.xyz" className="mb-4">
+                  <NFTrustLogo className="transition h-10 grayscale hover:grayscale-0 opacity-50 hover:opacity-100"/>
+                </a>
+              </div>
             </div>
           </div>
         </div>
