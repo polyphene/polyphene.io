@@ -26,3 +26,8 @@
 // AOS styles
 $aos-distance: 10px;
 @import 'node_modules/aos/src/sass/aos.scss';
+
+// Quick fix for a Safari-related bug
+.bg-clip-text.text-transparent {
+  display: -webkit-inline-box;
+}
