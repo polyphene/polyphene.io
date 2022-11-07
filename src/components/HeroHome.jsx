@@ -1,4 +1,5 @@
 import React  from 'react';
+import CrocoLogo from '../images/croco_horizontal_for_white_bg.svg';
 import HoliumLogo from '../images/holium_logo_black.svg';
 import Newsletter from "./Newsletter"
 
@@ -37,6 +38,8 @@ function HeroHome() {
             <div className="max-w-2xl mx-auto">
               <p className="text-xl text-gray-600 mb-8" data-aos="zoom-y-out" data-aos-delay="150">
                 {`We develop Web3 projects such as `}
+                <a href="https://crowdconnect.xyz/" className="underline font-medium">Crowd Connect</a>
+                {` and `}
                 <a href="https://holium.org" className="underline font-medium">Holium</a>
                 .
               </p>
@@ -44,6 +47,9 @@ function HeroHome() {
 
             <div className="max-w-xl mx-auto mt-12">
               <div className="flex flex-col lg:flex-row justify-evenly items-center">
+                <a href="https://crowdconnect.xyz/" className="mb-4">
+                  <CrocoLogo className="transition h-14 grayscale hover:grayscale-0 opacity-50 hover:opacity-100"/>
+                </a>
                 <a href="https://holium.org" className="mb-4">
                   <HoliumLogo className="transition h-10 grayscale hover:grayscale-0 opacity-50 hover:opacity-100"/>
                 </a>

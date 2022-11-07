@@ -79,7 +79,7 @@ function Newsletter() {
               {/* CTA content */}
               <div className="text-center lg:text-left lg:max-w-xl">
                 <h3 className="h3 text-black mb-2">Join our newsletter</h3>
-                <p className="text-gray-700 text-lg mb-6">Subscribe to our newsletter for quick updates on Polyphene, Web3 projects and our vision!</p>
+                <p className="text-gray-700 text-lg mb-6">Subscribe to our monthly newsletter for updates on Polyphene, Web3 projects and our vision!</p>
 
                 {/* CTA form */}
                 <>
