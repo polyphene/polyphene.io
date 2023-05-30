@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkpolyphene_io=self.webpackChunkpolyphene_io||[]).push([[883],{429:function(e,n,u){u.r(n);var t=u(7294),f=u(1597);n.default=function(){return(0,t.useEffect)((function(){(0,f.navigate)("/")}),[]),null}}}]);
+//# sourceMappingURL=component---src-pages-404-js-54c731e3d535f16d3bcf.js.map
