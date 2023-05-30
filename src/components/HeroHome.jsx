@@ -38,7 +38,7 @@ function HeroHome() {
             <div className="max-w-2xl mx-auto">
               <p className="text-xl text-gray-600 mb-8" data-aos="zoom-y-out" data-aos-delay="150">
                 {`We develop Web3 projects such as `}
-                <a href="https://crowdconnect.xyz/" className="underline font-medium">Crowd Connect</a>
+                <a href="#" className="underline font-medium">Crowd Connect</a>
                 {` and `}
                 <a href="https://polyphene.github.io/holium.org/" className="underline font-medium">Holium</a>
                 .
@@ -47,7 +47,7 @@ function HeroHome() {
 
             <div className="max-w-xl mx-auto mt-12">
               <div className="flex flex-col lg:flex-row justify-evenly items-center">
-                <a href="https://crowdconnect.xyz/" className="mb-4">
+                <a href="#" className="mb-4">
                   <CrocoLogo className="transition h-14 grayscale hover:grayscale-0 opacity-50 hover:opacity-100"/>
                 </a>
                 <a href="https://polyphene.github.io/holium.org/" className="mb-4">
