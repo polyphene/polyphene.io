@@ -40,7 +40,7 @@ function HeroHome() {
                 {`We develop Web3 projects such as `}
                 <a href="https://crowdconnect.xyz/" className="underline font-medium">Crowd Connect</a>
                 {` and `}
-                <a href="https://holium.org" className="underline font-medium">Holium</a>
+                <a href="https://polyphene.github.io/holium.org/" className="underline font-medium">Holium</a>
                 .
               </p>
             </div>
@@ -50,7 +50,7 @@ function HeroHome() {
                 <a href="https://crowdconnect.xyz/" className="mb-4">
                   <CrocoLogo className="transition h-14 grayscale hover:grayscale-0 opacity-50 hover:opacity-100"/>
                 </a>
-                <a href="https://holium.org" className="mb-4">
+                <a href="https://polyphene.github.io/holium.org/" className="mb-4">
                   <HoliumLogo className="transition h-10 grayscale hover:grayscale-0 opacity-50 hover:opacity-100"/>
                 </a>
               </div>
